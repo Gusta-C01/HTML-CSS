@@ -2,9 +2,20 @@
 @import  url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --cor0: #121212;
-    --cor1: #1e1e1e;
-    --cor2: #8b0000;
-    --cor3: #b22222;
-    --cor4: #f4f4f4;
+    --cor0: #f5f5f7; /* Cinza gelo bem claro (fundo da página e hover suave) */
+    --cor1: #e8e8ed; /* Prata claro (fundo da caixa <aside> e destaques leves) */
+    --cor2: #86868b; /* Cinza médio (detalhes, bordas sutis ou degradês) */
+    --cor3: #0071e3; /* Azul Apple (links, hover do menu e destaques principais) */
+    --cor4: #1d1d1f; /* Preto grafite (subtítulos, topo do <aside> e início do degradê) */
+    --cor5: #000000; /* Preto puro (base do <header>, <nav> e <footer>) */
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body {
+    background-color: var(--cor0);
 }
