@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div{
+    margin-bottom: 40px;
+    background-color: blue;
+}
+
+div.box{
+    width: 200px;
+    margin: 0 auto;
+    background-color: green;
+}

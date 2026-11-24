@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+div{
+    border: solid 3px black;
+    padding: 15px;
+    border-radius: 10px ;
+    margin: 30px;
+}
+
+div.tracinho{
+    border: dashed 3px black;
+    padding: 15px;
+    border-radius: 10px ;
+}
+
+div.pontinho{
+    border: dotted 3px black;
+    padding: 15px;
+    border-radius: 10px ;
+}
