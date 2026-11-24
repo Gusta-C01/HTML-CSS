@@ -1,13 +1,21 @@
 @charset "UTF-8";
 
-div{
+div.pai{
+    display: flex;
+    background-color: lightgray;
+    gap: 10px;
+}
+
+div.c1,div.c2,div.c3{  /* ou .c1,.c2,.c3 */
     width: 80px;
-    height: 80px;
-    border: 3px solid;
+    height: 80;
+    border: solid black 3px;
     border-radius: 10px;
     padding: 100px;
     margin: auto;
-    display: flex;
+}
+
+div.c1{
     background-color: aqua;
 }
 
