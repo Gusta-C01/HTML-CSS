@@ -16,6 +16,73 @@
     
 }
 
+header{
+    text-align: center;
+    background-image: linear-gradient(to right, var(--cor4), transparent);/* degrade */
+    color: white;
+    padding: 30px;
+}
+
+nav{
+    padding: 10px;
+     background-image: linear-gradient(to right, var(--cor4), transparent);/* degrade */
+}
+
+nav a{
+    color: white;
+     
+}
+ nav :hover{
+    color: var(--cor3); /* muda pra essa cor quando passa o mause em cima */
+ }
 body {
     background-color: var(--cor0);
+}
+
+main {
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto; /* separa o main das bordas, e nas bordas aparece o body ainda, então se o body estiver de tal cor vai aparecer essa cor nas bordas SEPARA AS BORDAS AUTOMATICAMENTE */
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    text-indent: 10px; /* margen da primeira linha dos textos*/
+    box-shadow: 5px 5px 5px black;
+}
+main img{
+    width: 100%; /* as imagens vão ocupar 100% da largura/width do main, e vão ficar todas do mesmo tamanho */
+}
+main p{
+    line-height: 20px; /* Espaço entre os paragrafos e linhas */
+     border-radius: 0px 0px 15px 15px; /* arredonda as bordas */
+}
+h2{
+    background-image: linear-gradient(to right, var(--cor1), transparent) ;
+}
+
+aside{
+    background-color: var(--cor1);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+aside ul{
+     list-style-position: inside; /* junta os pontinhos da lista com o conteudo dela de volta */
+    columns: 2;
+}
+
+aside h3{
+    background-color: var(--cor4);
+    color: white;
+}
+
+aside p{
+    padding: 20px;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    height: 20px;
 }

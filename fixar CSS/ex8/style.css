@@ -1,0 +1,21 @@
+@charset "UTF-8";
+header{
+    background-color: black;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+main{
+    max-width: 800px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
