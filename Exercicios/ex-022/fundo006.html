@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             /*background-color: black;
@@ -11,7 +11,9 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed;*/
+            background-attachment: fixed;
+            
+            !!! o background e a simplificação de tudo que ta aqui em cima*/
 
             /* Shorthand - background
                 color > image > position > repeat > [size] > attachment
@@ -19,15 +21,16 @@
 
             background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
+
         }
         
-        main {
-            background-color: white;
-            max-width: 400px;
-            padding: 10px;
-            margin: auto;
-            border: 1px solid darkblue;
-            border-radius: 15px;
+      main {
+        background-color: white; /* Fundo branco para dar contraste com a imagem */
+        max-width: 400px;        /* Largura máxima (encolhe em telas menores sem criar rolagem) */
+        padding: 10px;           /* Espaço interno entre a borda e o texto */
+        margin: auto;            /* Centraliza a caixa horizontalmente na tela */
+        border: 1px solid blue;  /* Borda fina azul */
+        border-radius: 15px;     /* Arredonda os cantos da caixa */
         }
     </style>
 </head>

@@ -11,25 +11,34 @@
         }
         div.quadrado{
             display: inline-block; /* faz as divs ficarem lado a lado (senão cada div ocupa a linha inteira) */
-            border: 2px solid black;
-            border-radius: 10px;
+            border: 2px solid black; /* faz a borda */
+            border-radius: 10px; /* arredonda a borda */
             background-color: lightgray; /* gradiente vai de amarelo (topo) pra vermelho (embaixo), "to bottom" define a direção */
-            width: 300px;
-            height: 300px;
+            width: 300px; /* largura */
+            height: 300px; /* altura */
         }
 
+        /* 3 maneiras de configurar o fundo */
+        
+        /* 1 */
         div#q1{
             background-color: skyblue;
         }
-
+        
+        /* 2 */
         div#q2{
             /* essa cor só aparece se a div não tiver background-image sobrescrevendo */
-            background-image: linear-gradient(to bottom, yellow, red);
+            background-image: linear-gradient(to bottom, yellow, red); /* faz um degrade do amarelo pro vermelho, vai ser de cima pra baixo*/
         }
 
+         /* 3 */
         div#q3{
-           background-image: url('imagens/pattern003.png');
+           background-image: url('imagens/pattern003.png'); /* uso pra poder pegar a imagem de fundo */
         }
+
+        /* todas tem a mesma class, mas com id diferente podendo mexer neles individualmente usando isso */
+
+
     </style>
 </head>
 <body>
