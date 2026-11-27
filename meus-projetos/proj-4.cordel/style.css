@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: black;
+    --cor2: white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    text-align: center;
+}
+
+header > h1{
+    padding: 30px;
+}
+p
+header > p{
+    padding: 20px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+header a:hover{
+    text-decoration:underline;
+}
+
+section {
+    
+
+}
+
+section > p{
+    padding: 50px;
+    
+}
+
+section.imagem{
+    background:black url(imagens/background001.jpg)center center no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid rgb(10, 10, 137);
+    color: white;
+    
+}
+
+
+
+

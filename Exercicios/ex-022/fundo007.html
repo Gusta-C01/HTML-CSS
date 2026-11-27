@@ -7,10 +7,10 @@
     <style>
         #container {
             background-image: url(imagens/target001.png);
-            background-size: 100% 100%;
+            background-size: 100% 100%; /* Faz a imagem alvo esticar exatamente no tamanho da caixa */
 
-            position: relative;
-            height: 96vh;
+            position: relative; /* PASSO 1: Todo elemento "pai" precisa ser relative para prender o filho dentro dele */
+            height: 96vh;       /* Ocupa 96% da altura da tela */
             padding: 10px;
             background-color: purple;
         }
@@ -19,14 +19,17 @@
             background-image: url(imagens/target001.png);
             background-size: 100% 100%;
 
-            position: absolute;
+            position: absolute; /* PASSO 2: Libera o elemento "filho" para se mover livremente dentro do container */
             height: 200px;
             width: 400px;
             background-color: yellow;
 
+            /* PASSO 3: Empurra o canto superior esquerdo do #conteudo para o meio exato da tela */
             left: 50%;
             top: 50%;
 
+            /* PASSO 4: Puxa o #conteudo de volta metade da sua própria largura (-50%) e altura (-50%).
+               Sem isso, apenas a pontinha do canto superior esquerdo ficaria no centro! */
             transform: translate(-50%, -50%);
         }
     </style>
